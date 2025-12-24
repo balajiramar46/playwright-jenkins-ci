@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('reprot' , async ({ page,browser }) => {
+test('reprot-1' , async ({ page,browser }) => {
 await page.goto('https://www.selenium.dev/documentation/webdriver/interactions/alerts/');
 page.once('dialog',dialog =>{
     dialog.dismiss();
@@ -9,7 +9,7 @@ page.once('dialog',dialog =>{
 await page.getByText('See an example alert', {exact:true}).click();
 })
 
-test('reprotfd' , async ({ page,browser }) => {
+test('reprot-2' , async ({ page,browser }) => {
 await page.goto('https://www.selenium.dev/documentation/webdriver/interactions/alerts/');
 page.once('dialog',dialog =>{
     dialog.dismiss();
@@ -17,7 +17,7 @@ page.once('dialog',dialog =>{
 })
 await page.getByText('See an example alert', {exact:true}).click();
 })
-test('reprotfd' , async ({ page,browser }) => {
+test('reprot-3' , async ({ page,browser }) => {
 await page.goto('https://www.selenium.dev/documentation/webdriver/interactions/alerts/');
 page.once('dialog',dialog =>{
     dialog.dismiss();
@@ -25,7 +25,7 @@ page.once('dialog',dialog =>{
 })
 await page.getByText('See an example alert', {exact:true}).click();
 })
-test('reprotfd' , async ({ page,browser }) => {
+test('reprot-4' , async ({ page,browser }) => {
 await page.goto('https://www.selenium.dev/documentation/webdriver/interactions/alerts/');
 page.once('dialog',dialog =>{
     dialog.dismiss();
