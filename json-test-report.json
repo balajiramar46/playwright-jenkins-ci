@@ -1,0 +1,297 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\ramya\\OneDrive\\Documents\\Playwrightlatestlearn\\playwright.config.ts",
+    "rootDir": "C:/Users/ramya/OneDrive/Documents/Playwrightlatestlearn/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 600000,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "json-test-report.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "junit-test-report.json"
+        }
+      ],
+      [
+        "C:\\Users\\ramya\\OneDrive\\Documents\\Playwrightlatestlearn\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/ramya/OneDrive/Documents/Playwrightlatestlearn/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/ramya/OneDrive/Documents/Playwrightlatestlearn/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      },
+      {
+        "outputDir": "C:/Users/ramya/OneDrive/Documents/Playwrightlatestlearn/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/ramya/OneDrive/Documents/Playwrightlatestlearn/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.55.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "login.spec.ts",
+      "file": "login.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login flow",
+          "file": "login.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "successful login with valid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 14357,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T14:05:32.212Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ramya\\OneDrive\\Documents\\Playwrightlatestlearn\\test-results\\login-Login-flow-successful-login-with-valid-credentials-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ramya\\OneDrive\\Documents\\Playwrightlatestlearn\\test-results\\login-Login-flow-successful-login-with-valid-credentials-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-0e4b7b3a868c18d38fdb",
+              "file": "login.spec.ts",
+              "line": 5,
+              "column": 7
+            },
+            {
+              "title": "shows error with invalid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 19138,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T14:05:47.347Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ramya\\OneDrive\\Documents\\Playwrightlatestlearn\\test-results\\login-Login-flow-shows-error-with-invalid-credentials-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ramya\\OneDrive\\Documents\\Playwrightlatestlearn\\test-results\\login-Login-flow-shows-error-with-invalid-credentials-chromium\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-a4477c53d7edd1ecf6a2",
+              "file": "login.spec.ts",
+              "line": 15,
+              "column": 7
+            },
+            {
+              "title": "successful login with valid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 25549,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T14:06:08.642Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ramya\\OneDrive\\Documents\\Playwrightlatestlearn\\test-results\\login-Login-flow-successful-login-with-valid-credentials\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ramya\\OneDrive\\Documents\\Playwrightlatestlearn\\test-results\\login-Login-flow-successful-login-with-valid-credentials\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-1c99a0df2e43d49df8f5",
+              "file": "login.spec.ts",
+              "line": 5,
+              "column": 7
+            },
+            {
+              "title": "shows error with invalid credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10269,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-12-24T14:06:34.653Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\ramya\\OneDrive\\Documents\\Playwrightlatestlearn\\test-results\\login-Login-flow-shows-error-with-invalid-credentials\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\ramya\\OneDrive\\Documents\\Playwrightlatestlearn\\test-results\\login-Login-flow-shows-error-with-invalid-credentials\\video.webm"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "41d3fd2474a19feb00a1-13ef5bc1a306115324f2",
+              "file": "login.spec.ts",
+              "line": 15,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-12-24T14:05:30.463Z",
+    "duration": 75001.589,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

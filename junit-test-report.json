@@ -1,0 +1,42 @@
+<testsuites id="" name="" tests="4" failures="0" skipped="0" errors="0" time="75.00158900000001">
+<testsuite name="login.spec.ts" timestamp="2025-12-24T14:05:30.548Z" hostname="chromium" tests="2" failures="0" skipped="0" time="33.495" errors="0">
+<testcase name="Login flow › successful login with valid credentials" classname="login.spec.ts" time="14.357">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\login-Login-flow-successful-login-with-valid-credentials-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\login-Login-flow-successful-login-with-valid-credentials-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Login flow › shows error with invalid credentials" classname="login.spec.ts" time="19.138">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\login-Login-flow-shows-error-with-invalid-credentials-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\login-Login-flow-shows-error-with-invalid-credentials-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="login.spec.ts" timestamp="2025-12-24T14:05:30.548Z" hostname="" tests="2" failures="0" skipped="0" time="35.818" errors="0">
+<testcase name="Login flow › successful login with valid credentials" classname="login.spec.ts" time="25.549">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\login-Login-flow-successful-login-with-valid-credentials\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\login-Login-flow-successful-login-with-valid-credentials\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Login flow › shows error with invalid credentials" classname="login.spec.ts" time="10.269">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\login-Login-flow-shows-error-with-invalid-credentials\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\login-Login-flow-shows-error-with-invalid-credentials\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
